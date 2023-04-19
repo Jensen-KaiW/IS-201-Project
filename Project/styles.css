@@ -1,0 +1,77 @@
+body{
+    background-color: whitesmoke;
+    background-image: url(assets/img/background-img.png);
+    background-repeat: repeat;
+}
+h1{
+    text-align: center;
+    font-size: 400%;
+}
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+  margin: auto;
+}
+#list{
+  display: inline;
+}
+.tableauPlaceholder {
+    display: block;
+    margin: auto;
+}
+a{
+  color:dodgerblue;
+}
+a:visited{
+  color:darkorchid
+}
+a:hover{
+  color:rgb(0, 0, 208);
+}
+a:visited:hover{
+  color:rgb(102, 0, 102);
+}
+.common{
+  font-family: 'Courier New', Courier, monospace;
+}
+.footer{
+  display: block;
+  text-align: center;
+  font-size: medium;
+  padding-top:50px;
+  padding-bottom: 20px;
+}
+iframe{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+}
+.video-container{
+  text-align: center;
+}
+.title{
+  display: block;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.horizontal-list {
+  display: flex; /* set the display to flex */
+  flex-direction: row; /* set the direction to horizontal */
+  list-style: none; /* remove the default list-style */
+  align-items: auto;
+}
+
+.horizontal-list li {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+.horizontal-list img {
+  display: block;
+  width: 350px;
+  height:200px;
+  padding: 0px;
+  margin: auto;
+}
